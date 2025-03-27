@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ===> FIRST SECTION CSS <=== */
+
+.first-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0px 150px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-container {
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-links {
+    display: flex;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content {
+    flex-basis: 537px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-self: center;
+}
+
+.content button {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-container .content p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* ===> SECOND SECTION CSS <=== */
