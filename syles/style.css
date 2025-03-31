@@ -7,6 +7,8 @@
 body {
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ===> FIRST SECTION CSS <=== */
@@ -115,6 +117,7 @@ ul {
     justify-content: center;
     gap: 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .block-object {
@@ -124,4 +127,33 @@ ul {
     flex-wrap: wrap;
     text-align: center;
     gap: 10px;
+}
+
+/* ===> THIRD SECTION CSS <=== */
+
+.third-section {
+    height: 550px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-right: 250px;
+    gap: 15px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    min-width: 0px;
+}
+
+.third-section p {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 25px;
+    min-width: 0px;
 }
