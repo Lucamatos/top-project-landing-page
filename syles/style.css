@@ -206,3 +206,15 @@ blockquote {
 .highlight {
     font-weight: 1000;
 }
+
+/* ===> FOOTER <=== */
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: #F9FAF8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
